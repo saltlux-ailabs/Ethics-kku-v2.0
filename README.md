@@ -4,7 +4,6 @@ This repository contains the code and resources for **Normative RAG**, a framewo
 
 The project currently supports experimentation with:
 - **Datasets:** NormAD, Scruples
-- **Methods:** Dense Retrieval, HyDE, Naive Generation, RAG, Rewrite-Retrieve-Read
 - **Models:** GPT-4, vLLM-supported open-source models
 
 ## 📂 Project Structure
@@ -26,7 +25,9 @@ The project currently supports experimentation with:
 
 ## 1. Start VLLM Server (Optional)
 If you plan to use open-source LLMs hosted locally, start the vLLM server first:
+```
 bash scripts/start_vllm_server.sh
+```
 
 ## 2. Dense Retrieval
 Perform retrieval to find relevant norms or situations from the dataset.
